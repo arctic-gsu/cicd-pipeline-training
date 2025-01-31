@@ -18,6 +18,7 @@ spec:
       - name: docker-secret
       containers:
       - name: web
+        # Add your docker image here
         image: harbor.rs.gsu.edu/training/stimsina-web:0.1.2
         imagePullPolicy: Always
         ports:
